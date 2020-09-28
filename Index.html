@@ -1,91 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <style>
-h1,h2,p{
-  font-family:Tahoma, Geneva, sans-serif;
-}
-html {
-    background: url(bg.jpg)no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.xop-container {
-    max-width: 960px;
-    margin: 0 3rem;
-
-}
-table {
-  position: absolute;
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #ffffff00;
-  text-align: center;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #191919;
-  color:#ffffff;
-}
-.btn {
-    min-width: 145px;
-    line-height: 50px;
-    padding: 0 30px;
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
-    border-radius: 0;
-    transition: box-shadow 0.25s ease-in-out;
-    -moz-transition: box-shadow 0.25s ease-in-out;
-    -webkit-transition: box-shadow 0.25s ease-in-out;
-    -o-transition: box-shadow 0.25s ease-in-out;
-    -ms-transition: box-shadow 0.25s ease-in-out;
-}
-
-.btn-fill {
-    color: #fff;
-    background-color: #212121;
-}
-
-.btn-border {
-    background-color: transparent;
-    color: #212121;
-    border: 1px solid #212121;
-}
-
-.btn-fill:hover,
-.btn-fill:focus {
-    color: #fff;
-}
-
-.btn:hover,
-.btn:focus {
-    box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.15);
-}
-</style>
+  <head> 
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title>Alhousain Albar</title>
   </head>
 <body>
 
-<div class="text-container">
-  <img src="me.png" alt="personal portrait" style="width: 30%; height:auto; position: absolute; right:15%;">
-<h1 style="position: absolute; top:300px;">Software Enigneer</h1>
-<a href="#contact" class="btn btn-fill"style="text-align: center; position: absolute; top:380px; left:5%;">Contact Me</a>
+  <img src="me.png" alt="personal portrait" id="myphoto">
+  <div class="Header">
+    <h1>Software Enigneer</h1>
+    <a href="#contact" class="btn btn-fill"style="text-align: center;">Contact Me</a>
+  </div>
 
-</div>
-
-
-
-    <table style="top: 1000px;">
+    <div class="Edu"><table>
       <tr>
         <th colspan="6" style="text-align:center; font-size:32px">Education</th>
       </tr>
@@ -137,8 +65,8 @@ tr:nth-child(even) {
         <td>3.5</td>
         <td>web development</td>
       </tr>
-    </table>
-      <table style="top: 1500px;">
+    </table></div>
+      <div class="Emp"><table>
         <tr>
           <th colspan="5" style="text-align:center; font-size:32px">Employment</th>
         </tr>
@@ -161,14 +89,10 @@ tr:nth-child(even) {
           <td>App developer</td>
           <td>freelance</td>
           <td>creating a mobile app, documenting all processes,giving weekly/monthly updates</td>
-</table>
-<h2 style="
-top: 1750px;
-position: absolute;">Certification List</h2>
-<h2>Project</h2>
-<dl style="
-top: 1800px;
-position: absolute;">
+</table></div>
+<!-- <h2>Certification</h2>
+
+<dl>
   <dt>English</dt>
   <dd>IELTs</dd>
   <dd>IB</dd>
@@ -177,30 +101,23 @@ position: absolute;">
   <dd>Intro to Game Development, Udemy 2019</dd>
   <dd>Intro to Cyber Security
 GCDC Saudi Arabia, Riyadh, 2020</dd>
-</dl>
-<h2 style="
-top: 1965px;
-position: absolute;">More</h2>
-<p style="
-top: 2000px;
-position: absolute;
+</dl> -->
+<div style="margin-bottom: 10%;margin-top: 80%;">
+  <h2 style="text-align: center;">More</h2>
+  <p style="
 column-count: 2;
-column-gap: 50px;
-column-rule: 2px solid #4c4c4c;
-margin-bottom: 35px;
-
-">
+column-gap: 5%;
+column-rule: 2px solid #4c4c4c;">
 One of the long term hobbies I enjoy is exercising and practicing sports, more specifically
 basketball. What interests me in software engineering is creating my own programs as I have
 created my first program in 2017 and I’m constantly working on new projects.<br>
 Profile of different activities: 1.https://sway.com/R8DeZwDX5lCHqXfO?ref=Link
 2.https://sway.com/SJHg2fFd6By0a7Zw?ref=Link&loc=mysways
 Github Page
-
-</p>
-<footer style="
-top: 2300px;
-position: absolute;">
+  <iframe width="760px" height="500px" src="https://sway.office.com/s/R8DeZwDX5lCHqXfO/embed" frameborder="0" marginheight="0" marginwidth="0" max-width="100%" sandbox="allow-forms allow-modals allow-orientation-lock allow-popups allow-same-origin allow-scripts" scrolling="no" style="border: none; max-width: 100%; max-height: 100vh" allowfullscreen mozallowfullscreen msallowfullscreen webkitallowfullscreen></iframe>
+  </p>
+</div>
+<footer>
 <b> <h1 id="contact" style="right:60px; ">Contact Me</h1></b>
 <br><br><br>
   <a href="218110249@psu.edu.sa"><img src="email.png" alt="Email" style="width:80px;height:80px;"></a>
